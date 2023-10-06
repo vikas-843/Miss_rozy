@@ -22,8 +22,8 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/75985293b57b3fda7eb7c.jpg https://graph.org/file/51f10dc7cbd5ac64c9e21.jpg https://graph.org/file/86b8fabccd531d1b3fd7a.jpg https://graph.org/file/861996f21c9615c96d612.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/7631c018c423c4dfbf0cf.jpg https://graph.org/file/7631c018c423c4dfbf0cf.jpg https://graph.org/file/7631c018c423c4dfbf0cf.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownloadmoviestamilhd/70")
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/khandudon302")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
