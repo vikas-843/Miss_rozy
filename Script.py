@@ -1,10 +1,11 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {} ji, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>, ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀɪ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
+    START_TXT = """<b>Hᴇʟʟᴏ {} ji, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a>,
+ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀɪ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ😍
 
 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ 👇
 
-<a href=https://t.me/khandudon302>☞ᴄʟɪᴄᴋ ʜᴇʀᴇ☜</a>
+<a href=https://t.me/khandudon302>☞Contact Here☜</a>
 
 ᴅᴏɴᴇ 🆗</b>"""
 
@@ -25,9 +26,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>Sᴏʀʀʏ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Oғ Tʜɪs Bᴏᴛ ɪs Pʀɪᴠᴀᴛᴇ 
 Aᴅᴅ Tʜɪs Bᴏᴛ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Usᴇ Lɪᴋᴇ Yᴏᴜʀs😊
 
-Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ : @Khandudon302
-
-Developer<a href='https://t.me/khandudon302'>Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ :</a>
+Developer<a href='https://t.me/khandudon302'>ME😁 :</a>
 """
 
 
