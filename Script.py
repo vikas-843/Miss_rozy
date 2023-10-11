@@ -1,27 +1,25 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {} ji
+    START_TXT = """<b>
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀɪ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ😍
 
-Maintained By : @Khandudon302</b>"""
+Maintained By : @Khandudon302"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/khandudon302>PROFESSOR</a>
- ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
- ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
- ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
- ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Heroku</a> 
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+-------> Name : Berlin
+-------> Dev : Khandudon302
+-------> Library : Pyrogram
+-------> Language : Python
+-------> Database : Mongodb
+-------> Server : Heroku
+-------> Build Status : ᴠ2.7.1 [sᴛᴀʙʟᴇ]</b>"""
 
     SOURCE_TXT = """
 <b>Sᴏʀʀʏ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Oғ Tʜɪs Bᴏᴛ ɪs Pʀɪᴠᴀᴛᴇ 
 Aᴅᴅ Tʜɪs Bᴏᴛ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Usᴇ Lɪᴋᴇ Yᴏᴜʀs😊
-
-Developer<a href='https://t.me/khandudon302'> Click on me!</a>
 """
 
 
