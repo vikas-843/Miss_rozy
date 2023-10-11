@@ -9,7 +9,7 @@ Maintained By : @Khandudon302"""
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
--------> Name : Berlin
+-------> Name : Professor
 -------> Dev : Khandudon302
 -------> Library : Pyrogram
 -------> Language : Python
