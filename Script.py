@@ -1,16 +1,16 @@
 class script(object):
     START_TXT = """<b>
-ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀɪ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
-ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ😍
+ɪ ᴀᴍ ᴘᴏᴡᴇʀ ᴀᴜᴛᴏ ꜰɪʟᴛʀ ʙᴏᴛ
+ɪ ᴀᴍ ᴘᴍ ꜱʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ😍
 
-Maintained By : @Khandudon302"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @KhanDuDon302 😏"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
 -------> Name : Professor
--------> Dev : Khandudon302
+-------> Dev : @Khandudon302
 -------> Library : Pyrogram
 -------> Language : Python
 -------> Database : Mongodb
