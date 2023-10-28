@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5634679884:AAH6KjE4JbS5rD3ljyZSJZJx6I-rbz5
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/75985293b57b3fda7eb7c.jpg https://graph.org/file/51f10dc7cbd5ac64c9e21.jpg https://graph.org/file/86b8fabccd531d1b3fd7a.jpg https://graph.org/file/861996f21c9615c96d612.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/79f8532932e6fc5be7540.jpg https://graph.org/file/7631c018c423c4dfbf0cf.jpg https://graph.org/file/7631c018c423c4dfbf0cf.jpg https://graph.org/file/7631c018c423c4dfbf0cf.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/45c97da5dd1fef6bd46ce.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/khandudon302")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
@@ -36,7 +36,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001963382900')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001785617521')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001976740983')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
