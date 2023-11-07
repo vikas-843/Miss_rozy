@@ -1831,27 +1831,23 @@ async def auto_filter(client, msg, spoll=False):
         ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'Sᴇʟᴇᴄᴛ ➢', 'select'),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇꜱ", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🚩 Gᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ 1 ᴄʟɪᴄᴋ 🚩", callback_data=f"sendfiles#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'Sᴇʟᴇᴄᴛ ➢', 'select'),
-                InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}"),
-                InlineKeyboardButton("Sᴇᴀsᴏɴs", callback_data=f"seasons#{key}")
+                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇꜱ", callback_data=f"languages#{key}"),
+                InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"seasons#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🚩 Gᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ 1 ᴄʟɪᴄᴋ 🚩", callback_data=f"sendfiles#{key}")
         ])
     if offset != "":
         req = message.from_user.id if message.from_user else 0
@@ -1871,7 +1867,7 @@ async def auto_filter(client, msg, spoll=False):
             )
     else:
         btn.append(
-            [InlineKeyboardButton(text="𝐍𝐎 𝐌𝐎𝐑𝐄 𝐏𝐀𝐆𝐄𝐒 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄",callback_data="pages")]
+            [InlineKeyboardButton(text="Yᴏᴜ ʀᴇᴀᴄʜᴇᴅ ᴛʜᴇ ᴇɴᴅ",callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     cur_time = datetime.now(pytz.timezone('Asia/Kolkata')).time()
