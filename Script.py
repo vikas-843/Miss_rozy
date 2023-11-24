@@ -1,16 +1,17 @@
 class script(object):
-    START_TXT = """<b>
-ɪ ᴀᴍ ᴘᴏᴡᴇʀ ᴀᴜᴛᴏ ꜰɪʟᴛʀ ʙᴏᴛ
-ɪ ᴀᴍ ᴘᴍ ꜱʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ😍
+    START_TXT = """<b>Hᴇʟʟᴏ {},
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @KhanDuDon302 😏"""
-
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Razer358'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+    
     HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
+Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
+
+🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Razer358'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
 -------> Name : Professor
--------> Dev : @Khandudon302
+-------> Dev : @Razer358
 -------> Library : Pyrogram
 -------> Language : Python
 -------> Database : Mongodb
