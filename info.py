@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "5634679884:AAH6KjE4JbS5rD3ljyZSJZJx6I-rbz5
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/45c97da5dd1fef6bd46ce.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/b61646e19b005198b414d.jpg https://telegra.ph/file/5d7c19bdd8260d5b52af8.jpg https://telegra.ph/file/f76d084731e151b932ffe.jpg https://telegra.ph/file/ca5e56da63249f4085a1a.jpg https://telegra.ph/file/32249e5f9d8d40c9e4c6c.jpg https://telegra.ph/file/954f364f69bba69930152.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/khandudon302")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
@@ -51,7 +51,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ez4short.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'ade16f386d69aa3d86d6320b5b2c906996a8d2a6')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
