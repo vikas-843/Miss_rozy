@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
-                    InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
+                    InlineKeyboardButton('✪ ᴄʜᴀɴɴᴇʟ', url="https://t.me/primeprosmovies"),
+                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/funkomovies')
                 ],[
                     InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', url='tg://settings')
                   ]]
@@ -45,10 +45,10 @@ async def start(client, message):
         buttons =  [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
-                    InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
+                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/primeprosmovies"),
+                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/funkomovies')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', url='tg://settings')
+                    InlineKeyboardButton('👻 ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ 👻', url='tg://settings')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E") 
@@ -93,10 +93,10 @@ async def start(client, message):
         buttons =  [[
                     InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
-                    InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
+                    InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url="https://t.me/primeprosmovies"),
+                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/funkomovies')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', url='tg://settings')
+                    InlineKeyboardButton('👻 ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ 👻', url='tg://settings')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -148,8 +148,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/hdlinks4uu'),
-                                InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
+                                InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url='https://t.me/primeprosmovies'),
+                                InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/funkomovies')
                             ],
                             [
                                 InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -168,8 +168,8 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/hdlinks4uu'),
-                          InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
+                          InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url='https://t.me/primeprosmovies'),
+                          InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url='https://t.me/funkomovies')
                          ],[ 
                             InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
@@ -325,10 +325,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/hdlinks4uu'),
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/funkomovies'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/khandudon302")
+                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Razer358")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -391,10 +391,10 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/hdlinks4uu'),
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/funkomovies'),
                       InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                    ],[
-                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/khandudon302")
+                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Razer358")
                      ],
                      [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
@@ -454,10 +454,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/hdlinks4uu'),
+              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/funkomovies'),
               InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
            ],[
-              InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/khandudon302")
+              InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/Razer358")
              ],
              [
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
